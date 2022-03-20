@@ -1,0 +1,31 @@
+#container {
+	text-align: center;
+}
+
+#text {
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px	;
+    font-family: var(--font1);
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 18px;   
+	background-color: rgb(0, 0, 0);
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(0, 0, 0); 
+	}
+}

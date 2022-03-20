@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+:root{
+    --main-bg-color: #fa6f05;
+    --main-color: #1abc9c;
+    --font1 :'Roboto Mono', monospace;
+    --font3 :  'Roboto', sans-serif;
+}
+
+.font-roboto{
+    font-family: var(--font1);
+}
